@@ -46,6 +46,12 @@ h2{
      width: 32%;
      float: left;
  }
+ .card-content{
+     width: calc(100% - 32%);
+     float: left;
+     padding: 15px 15px;
+     background-color: black;
+ }
 
  section{
      padding: 10px 0;
@@ -55,13 +61,20 @@ h2{
  a{
     text-decoration: none;
 }
+
  .col{
      float: left;
      width: calc(100% / 3 );
-     background-color: black;
-
-     
+     padding: 0 15px;
+         
  }
+ 
+ }
+ .card{
+    background-color: black;
+ }
+ 
+
  .text-email{
      color:cadetblue
  }

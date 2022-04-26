@@ -29,14 +29,13 @@ h1 {
 h2{
     color: white;
     font-family: 'Fredoka One', cursive;
-    padding-right: 15px;
-   
-
+    padding: 10px 5px;
 }
 
  p{
      padding: 30px 0;
      color: black;
+     font-family: 'Fredoka One', cursive;
  }
  span{
      color: white;
@@ -51,6 +50,10 @@ h2{
      padding: 10px 0;
      
  }
+
+ a{
+    text-decoration: none;
+}
  .col{
      float: left;
      width: calc(100% / 3 );
@@ -62,6 +65,4 @@ h2{
      color:cadetblue
  }
 
- a{
-     text-decoration: none;
- }
+ 
